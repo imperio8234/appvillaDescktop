@@ -1,0 +1,38 @@
+.contenthome{
+    display: grid;
+    grid-template-columns: 20% 55% 25%;
+    grid-template-rows: 10% 9% 6% 67% 6%;
+}
+
+
+.scrollstyle{
+    overflow-y: scroll;
+}
+.scrollstyle::-webkit-scrollbar{ 
+   
+    width: 5px;
+
+}
+.scrollstyle::-webkit-scrollbar-track{
+    background: white;
+}
+
+.scrollstyle::-webkit-scrollbar-thumb{
+    background: rgba(0, 0, 0, 0.216);
+}
+
+.dias-prueba{
+    min-height: 30px;
+    width: 100%;
+    position: relative;
+    background: rgba(42, 135, 228, 0.58);
+    padding: 10px;
+    top: 0;
+    text-align: justify;
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    animation: 400ms ease ;
+    
+    
+}
+

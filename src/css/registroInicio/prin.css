@@ -1,0 +1,62 @@
+.mainRegisterInicio{
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    padding: 0;
+  
+    
+}
+
+.containerImg{
+ width: 50%;
+}
+
+.containerForm{
+    width: 50%;
+    color: black;
+}
+.containerImg img{
+    width: 100%;
+    height: 98.9%;
+}
+
+.mreco{
+    width: 100%;
+    margin-left: 50%;
+    background-color: yellowgreen;
+}
+
+@media (max-width:800px) {
+    .mainRegisterInicio{
+        display: flex;
+        flex-direction:column-reverse;
+        
+      
+
+    }
+    .containerForm{
+       width: 100%;
+       height: 77%;
+        
+        color: black;
+        top: 0;
+        
+
+    }
+    .containerImg{
+        width: 100%;
+        min-height: 20%;
+        
+    }
+
+    .containerImg img{
+        width: 50%;
+        border-radius: 100%;
+    }
+    .mreco{
+        width: 100%;
+        margin-left: 0%;
+        
+    }
+}

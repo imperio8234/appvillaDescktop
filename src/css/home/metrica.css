@@ -1,0 +1,13 @@
+
+@media (max-width: 700px) {
+    .cont-cards{
+        display: flex;
+       flex-direction: column;
+    }
+    .con-ventas-historial{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+}

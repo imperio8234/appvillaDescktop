@@ -1,0 +1,228 @@
+.contVentas{
+    background-color: yellow;
+    width: 100%;
+    height: 100%;
+}
+
+.cont-ventasAdd{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background: white;
+}
+
+
+.buscadorVenta{
+    width: 100%;
+    background: rgba(210, 210, 210, 0.227);
+
+}
+
+.ventaEncontrada{
+    width: 100%;
+    height: 100%;
+    background: rgba(210, 210, 210, 0.227);
+
+}
+@media (max-width: 600px) {
+    .cont-ventasAdd{
+        flex-direction: column;
+        height: 45%;
+    }
+    .buscadorVenta{
+        width: 100%;
+    }
+    .ventaEncontrada{
+        width: 100%;
+    }
+}
+.cont-list{
+    width: 100%;
+    height:60%;
+    background: rgba(210, 210, 210, 0.227);
+}
+
+.iconMf{
+   cursor: pointer;
+}
+.iconMf:hover{
+    background-color: rgba(210, 210, 210, 0.227);
+
+}
+
+.add-list{
+    background-color: rgba(210, 210, 210, 0.227);
+    text-align: center;
+    padding: 5px;   
+}
+.add-list:hover{
+    background:mediumseagreen;
+}
+
+
+.contTable{
+    overflow-y: scroll;
+}
+.cont-list{
+    overflow-y: scroll;
+}
+
+.cont-bar{
+    height: 10%;
+    width: 100%;
+    background-color:rgba(210, 210, 210, 0.227);
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+
+.cont-text{
+    width: 70%;
+    background-color: white;
+}
+
+.cont-total{
+    width: 30%;
+    background-color: white;
+
+}
+
+.cont-panel{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    
+    background-color:rgba(210, 210, 210, 0.227);
+    padding: 5px;
+    gap: 10px;
+}
+
+.actions-venta{
+    height: 100%;
+    width: 100%;
+    background: white;
+}
+
+.cont-calcula{
+    height: 100%;
+    width: 60%;
+    background: white;
+}
+
+
+.cont-lector{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    padding: 20px;
+    background-color: cornsilk;
+    bottom: 0;
+
+
+}
+
+
+
+/* pago facturar */
+
+.cont-pago{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.131);
+}
+
+.cont-medio {
+    width: 40%;
+    height: 75%;
+}
+
+.restar-uni, .sumar-uni, .contador{
+    background-color: rgba(134, 132, 132, 0.1);
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.restar-uni:hover, .sumar-uni:hover, .contador:hover{
+    background-color: rgba(134, 132, 132, 0.539);
+
+}
+
+.pointer{
+    cursor: pointer;
+    user-select: none;
+}
+
+
+.productos{
+    font-size: 1vw;
+    white-space: nowrap;
+}
+
+.overf{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.131);
+}
+
+
+/*input */
+.search-input {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(151, 151, 151);
+    padding: 5px;
+    border-radius: 20px;
+    background: white;
+  }
+  
+  .search-input input {
+    border: none;
+    outline: none;
+  }
+  
+  .search-input div {
+    margin-left: 10px;
+    color: rgb(204, 204, 204);
+    cursor: pointer;
+    
+  }
+ .cardVenta{
+    transition: all ease 300ms;
+    max-height: 38%;
+ }
+  .cardVenta:hover{
+    background-color:rgba(0, 0, 255, 0.217);
+  }
+      @media (max-width: 600px) {
+          .cont-medio{
+              width: 70%;
+              height: 50%;
+          }
+          .cardVenta{
+            transition: all ease 300ms;
+            max-height: 250px;
+         }
+          
+      }
